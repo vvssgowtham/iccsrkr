@@ -1,0 +1,57 @@
+/* Add these styles to your callforpaper.css file */
+
+.callforpaperContainer {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .cfpbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cfp boxes */
+    margin-top: 2rem;
+  }
+  
+  h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .cfp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    width: 30%;
+    height: 26rem;
+    margin : 3rem;
+    border-radius: 10px;
+  }
+  
+  .cfp h3 {
+    margin-left: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .cfp h4 {
+    margin-left: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .cfp ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cfp ul li {
+    margin-bottom: 5px;
+}
+
+/* Apply the following styles for the second ul within the cfp box */
+.cfp ul + ul {
+    margin-top: 10px;
+}
+  
