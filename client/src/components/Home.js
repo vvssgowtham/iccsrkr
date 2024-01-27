@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 
 function Home() {
   return (
-    <>
+    <div className="home">
       <div className="container">
         <NavBar />
         <div className="content">
@@ -25,7 +25,7 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="container2">
+      <div className="container2" id="section2">
         <div className="card">
           <div className="card-header">
             <h4 style={{textAlign:"center"}}>Important dates</h4>
@@ -56,7 +56,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

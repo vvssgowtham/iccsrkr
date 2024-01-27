@@ -32,7 +32,7 @@ function NavBar() {
       <a href="/keynotespeakers">Keynote Speakers</a>
       <a href="/contact">Contact</a>
       <a href="/venue">Venue</a>
-      <a href="/important">Important Dates</a>
+      <a href="/#section2">Important Dates</a>
     </nav>
   );
 }
