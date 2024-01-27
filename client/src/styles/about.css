@@ -1,0 +1,23 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.content h4{
+    margin-top: 2rem;
+}
+.content h5{
+    margin-top: 1rem ;
+    margin-left: 2rem;
+}
+ul{
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    padding: 0;
+    overflow: hidden;
+}
+
+li > h6{
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,200 @@
+/* home.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://srkrec.edu.in/img/it/Itdept.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.2;
+    /* Adjust the opacity as needed */
+    z-index: -1;
+}
+
+nav {
+    display: flex;
+    background-color: #007BFF;
+    width: 100%;
+    align-items: center;
+    height: 8%;
+    padding-left: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+nav h3 {
+    color: white;
+    font-size: 30px;
+    margin-right: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0.8rem;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the link/button that will toggle the dropdown */
+.dropdown-link {
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Style the individual dropdown items */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: underline;
+}
+
+/* Show the dropdown content when hovering over the dropdown link */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1400px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    nav h3 {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    nav a {
+        margin: 0.5rem;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    margin: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+}
+
+.content p{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+}
+
+.content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+}
+
+.content2 img{
+    margin-top: 1rem;
+}
+
+.content2 p{
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+}
+
+.container2 {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1px;
+    border: 2px solid black;
+}
+
+.card-header{
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+    text-decoration: underline;
+}
+
+.card-body{
+    font-family: 'Poppins', sans-serif;
+    font-size:large;
+    font-weight: bold;
+}
+
+table{
+    border: 2px solid black;
+    margin: 1rem;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 1rem;
+    border: 2px solid black;
+}
